@@ -1,0 +1,546 @@
+*{margin:0;padding:0;}
+@font-face {
+    font-family: 'iconfont';
+    src: url('../image/font/iconfont.eot');
+    src: url('../image/font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../image/font/iconfont.woff') format('woff'),
+    url('../image/font/iconfont.ttf') format('truetype'),
+    url('../image/font/iconfont.svg#iconfont') format('svg');
+}
+
+.container-wrap{
+
+}
+.header{
+    min-width:1300px;
+   
+}
+.header .topnav{
+    
+    background:#f7f7f7;
+    border:solid 1px gainsboro;
+    position:relative;
+    height:35px;
+}
+.header .topnav .topnavLeft{
+    height:35px;
+    line-height:35px;
+    margin-left:50px;
+}
+.header .topnav .topnavRight{
+    width:auto;
+    position:absolute;
+    height:35px;
+    line-height:35px;
+    top:0;
+    right:50px;
+}
+.header .log{
+
+    background:#f5f5f5;
+    height:250px;
+    position:relative;
+}
+.header .log img{
+    position:absolute;
+    top:38px;
+    left:71px;
+}
+.header .log select{
+    position:absolute;
+    font-size:22px;
+    left:300px;
+    top:50px;
+}
+.header .log .search{
+    position:absolute;
+    top:40px;
+    left:600px;
+}
+.header .log .search [type="text"]{
+    width:500px;
+    height:40px;
+    border:solid #ff3e1b;
+}
+.header .log .search [type="text"]:focus{
+    outline:none;
+    box-shadow: 0px 0px 15px #ff3e1b;
+}
+.header .log .search [type="submit"]{
+    width:47px;
+    height:46px;
+    color:white;
+    font-size:20px;
+    position:absolute;
+    border:solid red;
+    background:red;
+
+}
+.header .log .search [type="submit"]:hover{
+    cursor:pointer;
+}
+/*轮播图区域*/
+.header .banner{       
+ min-width:1200px;
+ background:#f5f5f5;   
+}
+/*导航设置*/
+.header .banner .nav {
+    position:absolute;
+    /*border:solid;*/
+    width:100%;
+    min-width:1300px;
+    top:235px;
+    z-index: 20;
+}
+.header .banner .nav .navtopwrap{
+    /*border:solid;*/
+    width:90%;
+    margin:auto;
+}
+.header .banner .nav .navtop{
+    border:solid 1px #dcdcdc;
+    text-align:center;
+    background:white;
+    margin:auto;
+    *zoom:1;/*触发hasLayout触发IE6、7*/
+}
+
+/*清除浮动*/
+.header .banner .nav .navtop:after{
+    content:"1";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+.header .banner .nav .mainnav li:first-child{
+    width:200px;
+}
+.header .banner .nav .mainnav li{
+    float:left;
+    width:100px;
+    display:block;
+    font-size:18px;
+    height:50px;
+    line-height:50px;
+}
+
+.header .banner .nav .mainnav li a{
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+
+.header .banner .nav .mainnav li:hover{
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+.header .banner .nav .mainnav li a:hover{
+    color:white;
+}
+/*下拉菜单*/
+.header .banner .nav .menucontainer{
+    width:200px;
+    background:red;
+    color:white;
+    font-size:19px;
+    position: relative;
+    top:-2px;
+    left:1px;
+}
+.header .banner .nav .menucontainer .menu{
+
+    height:350px;
+}
+.header .banner .nav .menucontainer .menu li{
+    list-style:none;
+    padding:10px;
+}
+.header .banner .nav .menucontainer .menu li:hover{
+    background:black;
+    cursor:pointer;
+}
+/*menu箭头*/
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    position: absolute;
+    right: 15px;
+    opacity: 0.6;
+    font-weight: lighter;
+}
+
+/*影藏*/
+.hide{
+    display: none;
+}
+/*图片*/
+.header .banner .img{
+    position:relative;
+    width:96%;
+    margin: auto;
+
+}
+.header .banner .img img{
+    width: 100%;
+    height:350px;
+}
+/*向左向右箭头*/
+.pre{
+    position: absolute;
+    top:50%;
+    margin-top:-20px;
+    margin-left:25px;
+    /*border:solid;*/
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    border-radius:50%;
+}
+.dotBackground{
+    background:black;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    border-radius:50%;
+    opacity:0.2;
+}
+.dotBackground:after{
+    content:"1";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.iconfont2{
+    font-family:"iconfont" !important;
+    font-size:20px;
+    font-style:normal;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top:-20px;
+    margin-left:-10px;
+}
+.next{
+    position: absolute;
+    top:50%;
+    right:25px;
+    margin-top:-20px;
+    /*border:solid;*/
+    width:40px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    border-radius:50%;
+}
+.next:hover,.pre:hover{
+    cursor:pointer;
+}
+/*ul设置*/
+#dots{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+}
+#dots ul li:hover{
+    cursor: pointer;
+}
+
+/*小圆点*/
+#dots ul li{
+    margin: 0px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.listStyle{
+    background:rgba(58, 52, 52, 0.5);
+    box-shadow: 0px 0px 0px 3px
+    rgba(255,255,255,0.9) inset;
+}
+.hover{
+    background: rgba(255,255,255,0.9);
+    box-shadow:0px 0px 0px 5px
+    rgba(0,0,0,0.6) inset;
+}
+/*主体*/
+.main{
+    min-width:1300px;
+    position:relative;
+    width:100%;
+    /*注如果没有此线，则会跟随里面的margin一起脱离*/
+    
+}
+
+.main .recommend{
+      /*border:solid ;*/
+      width:96%;
+     padding: 10px 0;
+      margin:35px auto;
+      background: white;
+      position:relative;    
+      
+}
+.main .recommend:after{
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+.main .recommend .nav {
+     border-bottom:solid 1px #dddee1;
+     position:relative;
+     width:95%;
+     margin:auto;
+    height:35px;
+}
+.main .recommend .nav div{
+    width:150px;
+    height:35px;
+    line-height:35px;
+    text-align:center;
+    /*border:solid 1px;*/
+}
+.main .recommend .nav .today{
+     position:absolute;
+}
+.main .recommend .nav .selling{
+    position:absolute;
+    top:0;
+    left:151px;
+}
+body{
+     background:#f5f5f5;
+}
+.main .recommend .nav div:hover{
+    border-bottom:solid 2px red;
+    cursor: default;
+}
+.main .recommend .content{
+    width:95%;
+    margin: auto;
+   
+}
+.main .recommend .content:after{
+     content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+.main .recommend .container{
+    width:15%;
+     /*border:solid;*/
+    margin-right:19px;
+    float:left;
+    
+}
+.main .recommend .container div{
+    margin:20px 0;
+    font-weight:lighter;
+}
+.main .recommend .container img{
+    width:100%;
+}
+/* 楼层内容 */
+.main .oneFloor{    
+    width:96%;
+    margin:35px auto;
+    position:relative;
+    height:500px;
+}
+.main .oneFloor .room-wrap{
+      width:70%;
+      background:white;
+      position:relative;    
+      /*border:solid 1px;*/
+      padding:20px;
+      height:450px;
+}
+.main .oneFloor .room-wrap .floorTitle{
+      width:150px;
+      font-size:18px;
+      margin-bottom:20px;
+}
+/* 图片大小设置*/
+.main .oneFloor .room-wrap 
+.room-content>div:first-child{
+    width:200px;  
+}
+.room-content>div:first-child div{
+    width:100%;
+}
+
+.main .oneFloor .room-wrap .room-content #roomImg img {
+    width:125%;
+   /* border:solid red;*/
+}
+.main .oneFloor .room-wrap .room-content>div{
+    /* border:solid;*/
+    float:left;
+
+}
+
+.main .oneFloor .room-wrap .room-content 
+div .img img{
+    width:55%; 
+}   
+
+.main .oneFloor .room-wrap .room-content:after{
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    height:0;
+}
+
+/*定位*/
+.main .oneFloor .room-wrap .room-content>div:nth-child(2){
+    position:absolute;
+    left:33%;
+}
+.main .oneFloor .room-wrap .room-content div .content{
+   /* border:solid;*/
+    width:150px;
+    position:absolute;
+    top:0px;
+    left:60%;
+}
+.main .oneFloor .room-wrap .room-content div .content div{
+   margin-top:15px;
+}
+.main .oneFloor .room-wrap .room-content>div:nth-child(3){
+    position:absolute;
+    left:66%; 
+}
+.main .oneFloor .room-wrap .room-content>div:nth-child(4){
+    position:absolute;
+    top:270px;
+    left:33%;
+}
+.main .oneFloor .room-wrap .room-content>div:nth-child(5){
+    position:absolute;
+    top:270px;
+    left:66%;
+}
+/*侧栏*/
+.main .oneFloor .sidebar{
+    background:white;
+    width:22%;
+    height:490px;
+    /*border:solid 1px;*/
+    position:absolute;
+    top:0;
+    right:0;
+    
+}
+/*侧栏布局*/
+.main .oneFloor .sidebar .sidebar-top div{
+    margin:10px;
+}
+.main .oneFloor .sidebar .sidebar-top .checkall{
+    text-align:right;
+}
+.main .oneFloor .sidebar .sidebar-top .title{
+    font-weight:lighter;
+}
+.main .oneFloor .sidebar .sidebar-content{
+ /*border:solid 1px;*/    
+ text-align:center;
+}
+.main .oneFloor .sidebar .sidebar-content ul li{
+    list-style:none;
+    margin-top:8px;
+}
+/*li标签数字设置*/
+.main .oneFloor .sidebar .sidebar-content ul li span{
+    display:inline-block;   
+   color:white;
+   background:gray;
+   width:20px;
+   margin-right:7px;
+}
+.main .oneFloor .sidebar .sidebar-content ul li:first-child span{
+background:red;
+}
+.main .oneFloor .sidebar .sidebar-content ul li:nth-child(2) span{
+background:red;
+}
+.main .oneFloor .sidebar .sidebar-content ul li:nth-child(3) span{
+background:red;
+}
+/*页脚*/
+.footer{
+     /*border:solid;*/
+    min-width:1300px;
+    width:100%;
+    background:#e6e6e6;
+    position:relative;
+    
+}
+.footer .bottomBox_top{
+    margin:10px 40px;
+    border-bottom:solid red;
+    padding-bottom:20px;
+}
+.footer .bottomBox_top>ul{
+    /*border:solid;*/
+    margin:auto;
+}
+.footer .bottomBox_top .bottomList{
+    position:relative;
+    float:left;
+    margin-left:4%;
+   
+}
+.footer .bottomBox_top .bottomList li:first-of-type{
+    font-size:20px;
+    font-weight:bold;
+}
+.footer .bottomBox_top .bottomList li{
+    margin:10px 0;
+}
+/*清除圆点*/
+.footer .bottomBox_top ul{
+  list-style:none;
+}
+.footer .bottomBox_top>ul:after{
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+.footer .bottomBox_copyRight{
+    /*border:solid;*/
+}
+.footer .bottomBox_copyRight .companyInfor{
+    /*border:solid;*/
+    text-align:center;
+    padding:20px 0;
+}
+.footer .bottomBox_copyRight .websiteLogo ul li{
+    list-style:none;
+    position:relative;
+    float:left;
+    margin:30px 10px;
+}
+.footer .bottomBox_copyRight .websiteLogo ul:after{
+    content:".";
+    display:block;
+    clear:both;
+    height:0;
+    visibility:hidden;
+}
+.footer .bottomBox_copyRight .websiteLogo .wrap{
+    width:1300px;
+    margin:auto;
+} 

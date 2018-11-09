@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;chartset=utf-8">
+    <title>大麦网</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container-wrap">
+    <div class="header">
+        <div class="topnav">
+            <div class="topnavLeft">
+                Hi,欢迎来大麦[<span class="login"><a href="">登录</a></span> <span class="register"><a href="">注册</a></span>] |
+                <select>
+                    <option>我的大麦 </option>
+                </select>
+                | 我的订单
+            </div>
+            <div class="topnavRight">
+                大麦网微信&nbsp;&nbsp;&nbsp;&nbsp; |
+                手机版 |
+                <select name="" id="">
+                    <option value="">客户服务</option>
+                </select> |
+                <select name="" id="">
+                    <option value="">网站导航</option>
+                </select> |
+                English
+            </div>
+        </div>
+        <div class="log">
+            <img src="image/logo.png">
+            <form action="" method="post">
+                <select name="" id="" class="location">
+                    <option value="">北京</option>
+                </select>
+                <div class="search"><input type="text" placeholder="请输入演出、艺人、场馆名称"><input type="submit" value="搜索"></div>
+            </form>
+        </div>
+        <div class="banner">
+            <div class="nav">
+                <div class="navtopwrap">
+                    <div class="navtop">
+                        <ul class="mainnav">
+                            <li class="allCommodity">全部商品分类</li>
+                            <li><a href="">戏剧</a></li>
+                            <li><a href="">体育</a></li>
+                            <li><a href="">亲子</a></li>
+                            <li><a href="">舞蹈古典</a></li>
+                            <li><a href="">摇滚</a></li>
+                        </ul>
+                    </div>
+                    <div class="menucontainer hide">
+                        <ul class="menu">
+                            <li>
+                                演唱会
+                                    <span>
+                                         <i class="iconfont">&#xe62d;</i>
+                                     </span>
+                            </li>
+                            <li>音乐会
+                                    <span>
+                                        <i class="iconfont">&#xe62d;</i>
+                                    </span>
+                            </li>
+                            <li>歌剧话剧
+                                    <span>
+                                        <i class="iconfont">&#xe62d;</i>
+                                    </span>
+                            </li>
+                            <li>曲苑杂坛
+                                    <span>
+                                        <i class="iconfont">&#xe62d;</i>
+                                    </span>
+                            </li>
+                            <li>体育比赛
+                                    <span>
+                                       <i class="iconfont">&#xe62d;</i>
+                                    </span>
+                            </li>
+                            <li>儿童亲子
+                                    <span>
+                                        <i class="iconfont">&#xe62d;</i>
+                                    </span>
+                            </li>
+                            <li>舞蹈芭蕾
+                                    <span>
+                                        <i class="iconfont">&#xe62d;</i>
+                                    </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <img id="bannerImg"src="" alt="">
+                <div class="pre">
+                    <div class="dotBackground"></div>
+                    <i class="iconfont2">&#xf0343;</i>
+                </div>
+                <div class="next">
+                    <div class="dotBackground"></div>
+                    <i class="iconfont2">&#xf0344;</i>
+                </div>
+                <div id="dots">
+                    <ul ></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="recommend">
+            <div class="nav">
+                <div class="today">今日推荐</div>
+                <div class="selling">即将开售</div>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="img"><img src="image/recommed/01.png" alt=""></div>
+                    <div class="title">越野滑雪主题</div>
+                    <div class="price">票价：<b>￥270</b></div>
+                </div>
+                <div class="container">
+                    <div class="img"><img src="image/recommed/02.png" alt=""></div>
+                    <div class="title">乌龙山伯爵</div>
+                    <div class="price">票价：<b>￥401</b></div>
+                </div>
+                <div class="container">
+                    <div class="img"><img src="image/recommed/03.png" alt=""></div>
+                    <div class="title">深夜小狗离奇事件</div>
+                    <div class="price">票价：<b>￥623</b></div>
+                </div>
+                <div class="container">
+                    <div class="img"><img src="image/recommed/04.png" alt=""></div>
+                    <div class="title">深深地盖茨比</div>
+                    <div class="price">票价：<b>￥837</b></div>
+                </div>
+                <div class="container">
+                    <div class="img"><img src="image/recommed/05.png" alt=""></div>
+                    <div class="title">灯光游乐园</div>
+                    <div class="price">票价：<b>￥396</b></div>
+                </div>
+                <div class="container">
+                    <div class="img"><img src="image/recommed/01.png" alt=""></div>
+                    <div class="title">曲儿VC电饭锅</div>
+                    <div class="price">票价：<b>￥664</b></div>
+                </div>
+            </div>
+        </div>
+        <div class="oneFloor">
+            <div class="room-wrap">
+                <div class="floorTitle"><span style="color:red;"><b>1F</b>戏剧达人</span></div>
+                <div class="room-content">
+                    <div class="img" id="roomImg"><img src="image/recommed/06.png" alt=""></div>
+                    <div>
+                        <div class="img"><img src="image/recommed/07.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/02.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/03.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/04.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="checkall">查看全部&gt;&gt;</div>
+                    <div class="title">热门演出排行</div>
+                </div>
+                <div class="sidebar-content">
+                    <ul>
+                        <li><span>1</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>2</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>3</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>4</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>5</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>6</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>7</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>8</span>时代峰士大夫的说法静安寺</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="oneFloor">
+            <div class="room-wrap">
+                <div class="floorTitle"><span style="color:red;"><b>2F</b>体育赛事</span></div>
+                <div class="room-content">
+                    <div class="img" id="roomImg"><img src="image/recommed/06.png" alt=""></div>
+                    <div>
+                        <div class="img"><imgs src="image/recommed/07.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/02.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/03.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/04.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="checkall">查看全部&gt;&gt;</div>
+                    <div class="title">热门演出排行</div>
+                </div>
+                <div class="sidebar-content">
+                    <ul>
+                        <li><span>1</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>2</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>3</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>4</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>5</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>6</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>7</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>8</span>时代峰士大夫的说法静安寺</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="oneFloor">
+            <div class="room-wrap">
+                <div class="floorTitle"><span style="color:red;"><b>3F</b>舞蹈古典</span></div>
+                <div class="room-content">
+                    <div class="img" id="roomImg"><img src="image/recommed/06.png" alt=""></div>
+                    <div>
+                        <div class="img"><img src="image/recommed/07.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/02.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/03.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/04.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="checkall">查看全部&gt;&gt;</div>
+                    <div class="title">热门演出排行</div>
+                </div>
+                <div class="sidebar-content">
+                    <ul>
+                        <li><span>1</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>2</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>3</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>4</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>5</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>6</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>7</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>8</span>时代峰士大夫的说法静安寺</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="oneFloor">
+            <div class="room-wrap">
+                <div class="floorTitle"><span style="color:red;"><b>4F</b>儿童亲子</span></div>
+                <div class="room-content">
+                    <div class="img" id="roomImg"><img src="image/recommed/06.png" alt=""></div>
+                    <div>
+                        <div class="img"><img src="image/recommed/07.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/02.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/03.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/04.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="checkall">查看全部&gt;&gt;</div>
+                    <div class="title">热门演出排行</div>
+                </div>
+                <div class="sidebar-content">
+                    <ul>
+                        <li><span>1</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>2</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>3</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>4</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>5</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>6</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>7</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>8</span>时代峰士大夫的说法静安寺</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="oneFloor">
+            <div class="room-wrap">
+                <div class="floorTitle"><span style="color:red;"><b>5F</b>摇滚在路上</span></div>
+                <div class="room-content">
+                    <div class="img" id="roomImg"><img src="image/recommed/06.png" alt=""></div>
+                    <div>
+                        <div class="img"><img src="image/recommed/07.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/02.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/03.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="img"><img src="image/recommed/04.png" alt=""></div>
+                        <div class="content">
+                            <div class="title">深深地盖茨比</div>
+                            <div class="time">2008-2-3-2014-2-3</div>
+                            <div class="address">内蒙古</div>
+                            <div class="price">￥628起</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <div class="sidebar-top">
+                    <div class="checkall">查看全部&gt;&gt;</div>
+                    <div class="title">热门演出排行</div>
+                </div>
+                <div class="sidebar-content">
+                    <ul>
+                        <li><span>1</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>2</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>3</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>4</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>5</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>6</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>7</span>时代峰士大夫的说法静安寺</li>
+                        <li><span>8</span>时代峰士大夫的说法静安寺</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="bottomBox_top">
+            <ul>
+                <li class="bottomList">
+                    <ul>
+                        <li>订购方式</li>
+                        <li>在线订购</li>
+                        <li>电话订购</li>
+                        <li>上门订购</li>
+                        <li>大客户团体订购</li>
+                        <li>大麦超级票订购</li>
+                    </ul>
+                </li>
+                <li class="bottomList">
+                    <ul>
+                        <li>配送方式</li>
+                        <li>送货上门</li>
+                        <li>电子票</li>
+                        <li>上门自取</li>
+                        <li>大麦自助机换票</li>
+                    </ul>
+                </li>
+                <li class="bottomList">
+                    <ul>
+                        <li>支付方式</li>
+                        <li>在线支付</li>
+                        <li>柜台付款</li>
+                    </ul>
+                </li>
+                <li class="bottomList">
+                    <ul>
+                        <li>小麦网微信</li>
+                        <li><img
+                                src="image/footer/01.png"></li>
+                    </ul>
+                </li>
+                <li class="bottomList">
+                    <ul>
+                        <li>小麦网触屏版</li>
+                        <li><img
+                                src="image/footer/02.png"></li>
+                    </ul>
+                </li>
+                <li class="bottomList">
+                    <ul>
+                        <li>账户安全</li>
+                        <li>在线订购</li>
+                        <li>电话订购</li>
+                        <li>上门订购</li>
+                        <li>大客户团体订购</li>
+                    </ul>
+                </li>
+                <li class="bottomList">
+                    <ul>
+                        <li>配送方式</li>
+                        <li>在线订购</li>
+                        <li>电话订购</li>
+                        <li>上门订购</li>
+                    </ul>
+                </li>
+                <li class="bottomList">
+                    <ul>
+                        <li>特色服务</li>
+                        <li>在线订购</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="bottomBox_copyRight">
+            <div class="companyInfor">
+
+                公司介绍&nbsp;&nbsp;&nbsp;&nbsp;|
+                品牌识别&nbsp;&nbsp;&nbsp;&nbsp;|
+                企业荣誉&nbsp;&nbsp;&nbsp;&nbsp;|
+                隐私声明&nbsp;&nbsp;&nbsp;&nbsp;|
+                联系及合作&nbsp;&nbsp;&nbsp;&nbsp;|
+                招聘信息&nbsp;&nbsp;&nbsp;&nbsp;|
+                网站地图&nbsp;&nbsp;&nbsp;&nbsp;|
+                友情链接&nbsp;&nbsp;&nbsp;&nbsp;|
+                公司大事记
+
+            </div>
+            <div class="websiteLogo">
+                <div class="wrap">
+                    <ul>
+                        <li><img
+                                src="image/footer/03.jpg"></li>
+                        <li><img
+                                src="image/footer/04.jpg"></li>
+                        <li><img
+                                src="image/footer/05.jpg"></li>
+                        <li><img
+                                src="image/footer/06.jpg"></li>
+                        <li><img
+                                src="image/footer/07.jpg"></li>
+                        <li><img
+                                src="image/footer/08.jpg"></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-1.8.3.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+</script>
+</html>
